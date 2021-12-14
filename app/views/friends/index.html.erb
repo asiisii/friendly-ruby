@@ -15,7 +15,7 @@
   <tbody>
     <% @friends.each do |friend| %>
       <tr>
-        <td><%= link_to friend.first_name, friend %></td>
+        <td><u><%= link_to friend.first_name, friend %></u></td>
         <td><%= friend.last_name %></td>
         <td><%= friend.email %></td>
         <td><%= friend.phone %></td>
